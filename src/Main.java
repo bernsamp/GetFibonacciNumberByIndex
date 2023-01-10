@@ -4,11 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("\nEnter a number that corresponds to the index of the Fibonacci sequence you want to know: ");
+
         Scanner scanner = new Scanner(System.in);
 
         int userInput = scanner.nextInt();
 
         int result = fibonacciIterative(userInput);
+
+
 
         System.out.println("On the Fibonacci sequence, the index " + userInput + " has the value of " + result);
     }
